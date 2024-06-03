@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "build:android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output build/assets/xxxxxx.android.bundle --assets-dest build/res"
+    "build:android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output output/assets/xxxxxx.android.bundle --assets-dest output/res"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.17",
